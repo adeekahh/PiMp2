@@ -36,8 +36,20 @@ a{text-decoration: none; color: white}
 	font-weight: 400;
 	font-size:1em;
 	max-width: 350px;
+	animation: comeup 1s normal;
+	margin:2em;
 
 }
+
+@keyframes comeup{
+
+	from{
+                transform: translateY(1500px);
+            }
+
+   }
+
+
 
 .panel-box{
 	/*
