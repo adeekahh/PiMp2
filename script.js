@@ -44,6 +44,40 @@
       panel1Text.classList.remove("hide");
     }
 
+		if (panel2.classList.contains("open")){
+
+			panel2.classList.remove("open");
+			panel2Text.classList.add("hide");
+
+		}
+
+		if (panel3.classList.contains("open")){
+
+			panel3.classList.remove("open");
+			panel3Text.classList.add("hide");
+
+		}
+
+		if (panel4.classList.contains("open")){
+
+			panel4.classList.remove("open");
+			panel4Text.classList.add("hide");
+
+		}
+
+		if (panel5.classList.contains("open")){
+
+			panel5.classList.remove("open");
+			panel5Text.classList.add("hide");
+
+		}
+
+			if (panel6.classList.contains("open")){
+
+			panel6.classList.remove("open");
+			panel6Text.classList.add("hide");
+
+		}
 
   }
 
@@ -59,6 +93,43 @@
 
       panel2Text.classList.remove("hide");
     }
+
+
+		if (panel1.classList.contains("open")){
+
+			panel1.classList.remove("open");
+			panel1Text.classList.add("hide");
+
+		}
+
+		if (panel3.classList.contains("open")){
+
+			panel3.classList.remove("open");
+			panel3Text.classList.add("hide");
+
+		}
+
+		if (panel4.classList.contains("open")){
+
+			panel4.classList.remove("open");
+			panel4Text.classList.add("hide");
+
+		}
+
+		if (panel5.classList.contains("open")){
+
+			panel5.classList.remove("open");
+			panel5Text.classList.add("hide");
+
+		}
+
+			if (panel6.classList.contains("open")){
+
+			panel6.classList.remove("open");
+			panel6Text.classList.add("hide");
+
+		}
+
 
 
   }
@@ -77,6 +148,42 @@
     }
 
 
+		if (panel2.classList.contains("open")){
+
+			panel2.classList.remove("open");
+			panel2Text.classList.add("hide");
+
+		}
+
+		if (panel1.classList.contains("open")){
+
+			panel1.classList.remove("open");
+			panel1Text.classList.add("hide");
+
+		}
+
+		if (panel4.classList.contains("open")){
+
+			panel4.classList.remove("open");
+			panel4Text.classList.add("hide");
+
+		}
+
+		if (panel5.classList.contains("open")){
+
+			panel5.classList.remove("open");
+			panel5Text.classList.add("hide");
+
+		}
+
+			if (panel6.classList.contains("open")){
+
+			panel6.classList.remove("open");
+			panel6Text.classList.add("hide");
+
+		}
+
+
   }
 
   function hidePanelText4() {
@@ -91,6 +198,41 @@
 
       panel4Text.classList.remove("hide");
     }
+
+		if (panel2.classList.contains("open")){
+
+			panel2.classList.remove("open");
+			panel2Text.classList.add("hide");
+
+		}
+
+		if (panel3.classList.contains("open")){
+
+			panel3.classList.remove("open");
+			panel3Text.classList.add("hide");
+
+		}
+
+		if (panel1.classList.contains("open")){
+
+			panel1.classList.remove("open");
+			panel1Text.classList.add("hide");
+
+		}
+
+		if (panel5.classList.contains("open")){
+
+			panel5.classList.remove("open");
+			panel5Text.classList.add("hide");
+
+		}
+
+			if (panel6.classList.contains("open")){
+
+			panel6.classList.remove("open");
+			panel6Text.classList.add("hide");
+
+		}
 
 
   }
@@ -108,6 +250,43 @@
 
       panel5Text.classList.remove("hide");
     }
+
+
+
+		if (panel2.classList.contains("open")){
+
+			panel2.classList.remove("open");
+			panel2Text.classList.add("hide");
+
+		}
+
+		if (panel3.classList.contains("open")){
+
+			panel3.classList.remove("open");
+			panel3Text.classList.add("hide");
+
+		}
+
+		if (panel4.classList.contains("open")){
+
+			panel4.classList.remove("open");
+			panel4Text.classList.add("hide");
+
+		}
+
+		if (panel1.classList.contains("open")){
+
+			panel1.classList.remove("open");
+			panel1Text.classList.add("hide");
+
+		}
+
+			if (panel6.classList.contains("open")){
+
+			panel6.classList.remove("open");
+			panel6Text.classList.add("hide");
+
+		}
   }
 
 
@@ -119,6 +298,42 @@
     } else {
       panel6Text.classList.remove("hide");
     }
+
+
+		if (panel2.classList.contains("open")){
+
+			panel2.classList.remove("open");
+			panel2Text.classList.add("hide");
+
+		}
+
+		if (panel3.classList.contains("open")){
+
+			panel3.classList.remove("open");
+			panel3Text.classList.add("hide");
+
+		}
+
+		if (panel4.classList.contains("open")){
+
+			panel4.classList.remove("open");
+			panel4Text.classList.add("hide");
+
+		}
+
+		if (panel5.classList.contains("open")){
+
+			panel5.classList.remove("open");
+			panel5Text.classList.add("hide");
+
+		}
+
+			if (panel1.classList.contains("open")){
+
+			panel1.classList.remove("open");
+			panel1Text.classList.add("hide");
+
+		}
   }
 
 
