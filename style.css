@@ -36,6 +36,7 @@ a{text-decoration: none; color: white}
 	font-weight: 400;
 	font-size:1em;
 	max-width: 350px;
+
 }
 
 .panel-box{
@@ -487,9 +488,17 @@ animation: slide-down 1s normal;
          margin-top: 200px;}
 
 	.slideshow-title{
-		font-size: 92px;
+		font-size: 3em;
 	}
 
+	.panels{
+		flex-direction:column ;
+	}
+
+	.main-chart{
+		width:100%;
+		grid-column: 1/-1;
+	}
 
 
 	.preload-text{
@@ -514,9 +523,7 @@ animation: slide-down 1s normal;
                   width: 200%;
                  margin-left: 100px;}
 
-    .slideshow-title{
-        font-size: 30px;
-    }
+
 
      .main-boxes{
                      display: grid;
@@ -529,7 +536,7 @@ animation: slide-down 1s normal;
 
 	.slide-number{
 		text-align: center;
-		font-size: 4px !important;
+		font-size: 1em !important;
 	}
 
     .box-one{
