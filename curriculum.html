@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<title>Multimedia Design and Communication Curriculum</title>
+</head>
+
+<body>
+
+	<div class="preload-screen">
+		<h1 class="preload-text">Copenhagen School of Design and Technology<br>Multimedia Design and Communication <br>Curriculum</h1>
+		<img class="preload-brice" src="assets/Brice-Kea.png" alt="Brice-Kea" >
+		<img class="preload-bar" src="assets/loadbar.gif">
+	<div class="preload-logo">
+	<!--	<a href="www.kea.dk/en" class="kea-link"><img src="assets/kea_EN_logo_BLK.jpg" alt="kea logo"></a>
+	-->
+
+		</div>
+
+		<div class="preload-left">
+		</div>
+	<div class="preload-right">
+
+		</div>
+
+	</div>
+
+<div class="intro-page">
+	<img class="intro-image" src="assets/logo_keaaa@2x.png" alt="Kea Logo">
+	<!--
+	<h1 class="KEA">Copenhagen School of Design and Technology<br> Multimedia Design <br> Curriculum </h1> -->
+	<img class="main-chart" src="assets/kea-chart.png" alt="mmd chart">
+	<!--<img class="brice" src="assets/Brice-Kea.png" alt="Brice-Kea" >-->
+	<h2 class="overview-title">General Overview <br>of the programme</h2>
+	<p class="main-description">Scroll for detailed information for each semester</p>
+    <div class="scroll">&#8595;</div>
+
+
+</div>
+
+
+<div class="slideshow-page" id="slideshow">
+
+	<div class="slideshow-inner">
+
+		<button class="prev slideshow-button" onclick="plusSlides(-1)">&#10094;</button>
+
+		<div class="slideshow-main">
+
+			<div class="mySlides first-semester">
+             <span class="slide-number">1/5<br></span>
+				<h2  class="slideshow-title " > <a href="1st-semester.html">First <br>Semester</a></h2>
+		<div class="slideshow-rectangle rectangle-1"></div>
+		</div>
+
+			<div class="mySlides second-semester">
+				<span class="slide-number">2/5<br></span>
+		<h2 class="slideshow-title"><a href="2nd-semester.html">Second <br>Semester</a></h2>
+		<div class="slideshow-rectangle rectangle-2"></div>
+		</div>
+
+			<div class="mySlides third-semester">
+				<span class="slide-number">3/5<br></span>
+		<h2 class="slideshow-title"> <a href="3rd-semester.html">Third <br>Semester</a></h2>
+		<div class="slideshow-rectangle rectangle-3"></div>
+		</div>
+
+			<div class="mySlides fourth-semester">
+				<span class="slide-number">4/5<br></span>
+		<h2 class="slideshow-title"><a href="4th-semester.html">Fourth <br>Semester</a></h2>
+		<div class="slideshow-rectangle rectangle-4"></div>
+		</div>
+
+			<div class="mySlides faq">
+				<span class="slide-number">5/5<br></span>
+                <h2 class="slideshow-title"><a >FAQ</a></h2>
+		<div class="slideshow-rectangle rectangle-5"></div>
+		</div>
+
+		</div>
+		<button class="next slideshow-button" onclick="plusSlides(1)">&#10095;</button>
+
+
+	 </div>
+</div>
+
+
+
+
+
+<!--
+1. Add individual class names for modal
+-->
+<script type="text/javascript">
+/*SLIDESHOW*/
+//selectors
+//firstsemester
+var FirstSemesterPage = document.querySelector(".first-semester-page");
+var FirstSemesterSlide = document.querySelector(".first-semester");
+
+//secondsemester
+var SecondSemesterPage = document.querySelector(".second-semester-page");
+var SecondSemesterSlide = document.querySelector(".second-semester");
+
+//thirdsemester
+var ThirdSemesterPage = document.querySelector(".third-semester-page");
+var ThirdSemesterSlide = document.querySelector(".third-semester");
+
+//fourthsemester
+var FourthSemesterPage = document.querySelector(".fourth-semester-page");
+var FourthSemesterSlide = document.querySelector(".fourth-semester");
+
+//faq
+var FaqPage = document.querySelector(".faq-page");
+var FaqSlide = document.querySelector(".faq");
+//slider
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+
+	if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+
+
+}
+
+
+
+
+function movePreload(){
+	var preLoadLeft = document.querySelector(".preload-left");
+	var preLoadRight = document.querySelector(".preload-right");
+	var preLoadText = document.querySelector(".preload-text");
+	var preLoadBar = document.querySelector(".preload-bar");
+	var preLoadBrice = document.querySelector(".preload-brice");
+
+	preLoadLeft.classList.add("totheleft");
+	preLoadRight.classList.add("totheright");
+	preLoadText.classList.add("totheleft");
+	preLoadBar.classList.add("totheright");
+	preLoadBrice.classList.add("totheright");
+
+
+}
+
+function PreloadTimeout(){
+
+	setTimeout(movePreload, 3000);
+}
+
+PreloadTimeout();
+
+function hidePreload(){
+	var preLoadLeft = document.querySelector(".preload-left");
+	var preLoadRight = document.querySelector(".preload-right");
+	var preLoadText = document.querySelector(".preload-text");
+	var preLoadBar = document.querySelector(".preload-bar");
+	var preLoadBrice = document.querySelector(".preload-brice");
+
+	preLoadLeft.style.display = "none";
+	preLoadRight.style.display = "none";
+	preLoadText.style.display = "none";
+	preLoadBar.style.display = "none";
+	preLoadBrice.style.display = "none";
+
+}
+
+function hidePreloadTimeout(){
+
+	setTimeout(hidePreload, 6000);
+}
+
+hidePreloadTimeout();
+
+</script>
+</body>
+</html>
