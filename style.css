@@ -503,6 +503,20 @@ animation: slide-down 1s normal;
 		font-size: 3em;
 	}
 
+	.panel-text{
+	animation: floatin 1s normal;
+
+
+}
+
+@keyframes floatin{
+
+	from{
+                transform: translateX(1500px);
+            }
+
+   }
+
 	.panels{
 		flex-direction:column ;
 	}
